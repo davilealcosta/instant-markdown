@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+}
+
+.header a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header h1 {
+  font-size: 150%;
+  margin: 5px;
+  font-family: 'Koulen', cursive;
+}
+
+.header h2 {
+  font-size: 100%;
+}
+
+.main {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.main textarea {
+  columns: 120;
+  width: 92%;
+  height: 500px;
+  resize: none;
+  border: 1px solid rgb(73, 73, 73);
+  padding: 5px;
+}
+
+.main textarea::placeholder {
+  color: black;
+}
+
+.btn_export {
+  align-self: flex-end;
+  margin-right: 3.5%;
+  height: 25px;
+  width: 150px;
+  color: rgb(24, 24, 24);
+  background-color: rgb(173, 172, 172);
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.btn_export:hover {
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+}
+
+.sobre {
+  margin-bottom: 50px;
+}
+
+.view {
+  width: 92%;
+  height: 500px;
+  border: 1px solid rgb(73, 73, 73);
+  padding: 5px;
+  overflow: auto;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn_edit {
+  border-radius: 10px 0 0px 10px;
+  border: 2px solid rgb(24, 24, 24);
+  border-right: 1px solid black;
+}
+
+.btn_view {
+  border-radius: 0px 10px 10px 0;
+  border: 2px solid rgb(24, 24, 24);
+  border-left: 1px solid black;
+}
+
+.btn_active {
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  color: aliceblue;
+  background-color: rgb(24, 24, 24);
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  padding: 5px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.footer img {
+  background-color: aliceblue;
+  border-radius: 50%;
+  margin-left: 10px;
+}
