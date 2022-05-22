@@ -19,6 +19,6 @@ export default function BtnExport(props) {
   }
 
   return (
-    <button className="btn_export" onClick={() => docExport()}>Salvar documento</button>
+    <button className="btn_export" onClick={() => docExport()}> 📄 Salvar documento</button>
   );
 }
