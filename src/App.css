@@ -110,8 +110,9 @@
   color: aliceblue;
   background-color: rgb(24, 24, 24);
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 90px;
   padding: 5px 0;
 }
 
